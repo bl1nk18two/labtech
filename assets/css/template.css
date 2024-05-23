@@ -65,11 +65,12 @@ nav a:hover {
 #banner {
     display: flex;
     justify-content: center;
-    background-image: url('../images/Course-BG.png');
+    background-image: url('../images/hospital3.jpg');
+    background-attachment: fixed;
     background-position: center;
-    background-size: cover;
+    background-size:cover;
     background-color: #4334a7;
-    height: 670px;
+    height: 600px;
 }
 
 .column {
@@ -203,16 +204,24 @@ nav a:hover {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
 } 
 
 .departamentos_widget {
-    width: 155px;
-    height: 155px;
-    background: #99a7ff;
+    width: 140px;
+    height: 140px;
+    background: #4756b8;
     margin-bottom: 20px;
 }
 
+.departamento_texto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+    margin-top: 60px;
+}
 
 .contatenos .contatenos_text{
     margin-bottom: 20px;
@@ -223,10 +232,9 @@ nav a:hover {
     padding: 10px 0px;
     border-top: 1px solid #ccc;
 }
-.contatenos .contatenos_contact .icon {
+.contatenos .contatenos_contact .email_icon, .photo_icon {
     width: 30px;
     height: 30px;
-    background-color: #ccc;
     margin-right: 10px;
 }
 .contatenos .contatenos_contact a {
@@ -258,7 +266,7 @@ article a {
 }
 
 article .news_posted_at {
-    background-color: #4b3cb0;
+    background-color: #4756b8;
     color: white;
     font-size: 12px;
     padding: 10px;
@@ -467,6 +475,7 @@ footer .widget_title_text {
     #banner {
         margin-top: 0px;
         height: auto;
+        background-position: 60% 20%;    
     }
     .banner_headline {
         padding: 20px;
@@ -496,7 +505,6 @@ footer .widget_title_text {
     .departamentos_widget {
         width: 120px;
         height: 120px;
-        background: #99a7ff;
         margin-bottom: 20px;
     }
 
@@ -565,15 +573,6 @@ footer .widget_title_text {
     }
     article {
         min-width: 280px;
-    }
-
-    
-    /* Widgets */
-    .departamentos_widget {
-        width: 140px;
-        height: 140px;
-        background: #99a7ff;
-        margin-bottom: 20px;
     }
     
     /* Rodapé */
