@@ -502,10 +502,12 @@ footer .widget_title_text {
     
 
     /* Widgets */
+    .departamentos {
+        justify-content: space-between;
+    }
     .departamentos_widget {
         width: 120px;
         height: 120px;
-        justify-content: space-between;
     }
     .departamento_texto {
         margin-top: 51px;
