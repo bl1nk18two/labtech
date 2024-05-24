@@ -1,8 +1,13 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: calibri;
+    font-family: Calibri;
 }
+@font-face {
+    font-family: 'Calibri', sans-serif;
+    src: url('calibri.woff2') format('woff2'),
+         url('calibri.woff') format('woff');
+}  
 body {
     margin: 0px;
     padding: 0px;
